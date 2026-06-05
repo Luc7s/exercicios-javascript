@@ -33,20 +33,35 @@ Crie uma variável com seu nome e imprima `"Olá, <nome>!"`.
 ```
 nome = "Ana"  →  "Olá, Ana!"
 ```
+const name = "Lucas";
+
+console.log(name)
+
+
 > 💡 Use template strings: `` `Olá, ${nome}!` ``
 
 ### 2. Soma simples
 Crie uma função que receba dois números e retorne a soma.
 ```
+
 soma(3, 4)  →  7
 ```
+const soma = function (number1, number2){
+   return number1 + number2
+}
 
+console.log (soma(3,4));
 ### 3. Conversão de temperatura
 Converta Celsius para Fahrenheit. Fórmula: `F = C * 9/5 + 32`.
 ```
 celsiusParaF(30)  →  86
 celsiusParaF(0)   →  32
 ```
+const celciusparaf = function (C){
+   return F = C * 9/5 + 32
+}
+
+console.log (celciusparaf(0));
 
 ### 4. Par ou ímpar
 Retorne `"par"` ou `"ímpar"` para um número.
