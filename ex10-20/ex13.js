@@ -1,5 +1,22 @@
-function calculadora(n1,n2,sinal) {
-    return n1, sinal, n2
-}
+function calculadora(n1,n2,operador)
+{
+ switch (operador) {
+    case "+":
+        console.log(n1 + n2)
+        break;
+    case "*":
+        console.log(n1*n2)
+        break;
+    case "-":
+        console.log(n1-n2)
+        break;
+    case "/":
+        console.log(n1/n2)
+        break;
+ 
+    default:
+        break;
+ }
 
-calculadora(15, 20, +)
+}
+calculadora(5,10, "/")
