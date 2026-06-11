@@ -1,11 +1,11 @@
-function fatorial(numero) {
-let resultado = 1
-   for (let i = numero; i >= 1; i--) {
-    resultado = resultado * (i - 1) * numero
-    console.log(resultado)
-   } 
-    
-}
-return fatorial(5)
+//Calcule o fatorial de um número (`n! = n * (n-1) * ... * 1`). 123123
 
-//Calcule o fatorial de um número (`n! = n * (n-1) * ... * 1`).
+function fatorial(n) {
+let resultado = 1
+   for (let i = n; i >= 1; i--) {
+   resultado *= i;
+   } 
+return resultado
+
+}
+console.log(fatorial(5))
