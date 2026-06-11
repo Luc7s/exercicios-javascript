@@ -4,3 +4,6 @@ function cem() {
     }
 }
 cem();
+
+
+// fiz um outro em #tabuada.js
