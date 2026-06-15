@@ -7,6 +7,7 @@ function inverter(texto)
 return inverter("abc");
 
 /*💡 `texto.split("").reverse().join("")`
+modelo que salva
 
 function inverter(texto)
 {
