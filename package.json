@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "exercicios-javascript",
+  "version": "1.0.0",
+  "description": "Lista de exercícios para praticar os fundamentos de JavaScript, do zero ao\r intermediário. Pensada para estudo em **turma/equipe**.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luc7s/exercicios-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Luc7s/exercicios-javascript/issues"
+  },
+  "homepage": "https://github.com/Luc7s/exercicios-javascript#readme"
+}
